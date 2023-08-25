@@ -1,0 +1,36 @@
+.loginFormConatiner {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.loginForm>h2 {
+    color: rgb(51, 22, 212);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginForm>input {
+    padding: 10px;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.FormButton {
+    background: #1041e2;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.FormButton:hover {
+    background: #2749b9;
+}
